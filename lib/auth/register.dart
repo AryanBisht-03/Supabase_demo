@@ -97,7 +97,7 @@ class _RegisterState extends State<Register> {
                       },
                       color: Colors.brown[800],
                       child: Text(
-                        "Register",
+                        "SignUp",
                         style: TextStyle(
                           color: Colors.white,
                         ),
@@ -109,8 +109,8 @@ class _RegisterState extends State<Register> {
                     Text(
                       error,
                       style: TextStyle(
-                        color: Colors.red,
-                        fontSize: 14.0,
+                        color: Colors.red[800],
+                        fontSize: 28.0,
                       ),
                     )
                   ],

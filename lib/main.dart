@@ -34,10 +34,11 @@ class _AuthenticateState extends State<Authenticate> {
   void toggleView(){
     setState(() {
       showSignIn=!showSignIn;
-      if(user!=null)
+      if(user!=null) {
         homePage = true;
-      else
+      } else {
         homePage = false;
+      }
     });
   }
   @override

@@ -91,7 +91,7 @@ class _SignInState extends State<SignIn> {
               ),
               Text(error,
               style: TextStyle(
-                color: Colors.red[100]
+                color: Colors.red[800]
               ),
               )
             ],
@@ -107,7 +107,8 @@ class _SignInState extends State<SignIn> {
           .signInWithPassword(email: email, password: password);
       return res;
     }
-    catch(_){
+    catch(error){
+      print(error);
       return null;
     }
 
